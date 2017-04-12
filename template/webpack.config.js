@@ -10,7 +10,7 @@ module.exports = {
     entry: {
         'demo': [
             'react-hot-loader/patch',
-            'webpack-dev-server/client?http://127.0.0.1:{{port}}',
+            'webpack-dev-server/client?http://127.0.0.1:{{port}}/',
             'webpack/hot/only-dev-server',
             './example/index.js'
         ]
@@ -19,7 +19,7 @@ module.exports = {
         filename: '[name].js',
         sourceMapFilename: '[file].map',
         path: resolve(__dirname, 'dist'),
-        publicPath: '/dist'
+        publicPath: '/dist/'
     },
     devtool: 'cheap-module-eval-source-map',
 
