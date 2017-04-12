@@ -9,7 +9,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         'demo': [
-            // 'react-hot-loader/patch',
+            'react-hot-loader/patch',
             'webpack-dev-server/client?http://127.0.0.1:{{port}}',
             'webpack/hot/only-dev-server',
             './example/index.js'
@@ -38,7 +38,7 @@ module.exports = {
             rewrites: [
                 {
                     from: /^\/.*$/,
-                    to: '/index.html'
+                    to: '/dist/index.html'
                 }
             ],
             verbose: true
@@ -66,7 +66,7 @@ module.exports = {
                             'dist'
                         ],
                         'plugins': [
-                            // 'react-hot-loader/babel',
+                            'react-hot-loader/babel',
                             'transform-decorators-legacy'
                         ]
                     }
