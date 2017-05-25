@@ -42,7 +42,7 @@
         "postcss-loader": "^1.2.2",
         "postcss-position": "^0.5.0",
         "postcss-size": "^1.1.1",
-        "rabjs": "^1.0.4",
+        "rabjs": "^3.2.4",
         "react-hot-loader": "^3.0.0-beta.6",
         "sass-loader": "^4.1.1",
         "style-loader": "^0.13.1",
