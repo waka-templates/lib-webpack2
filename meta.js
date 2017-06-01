@@ -33,10 +33,14 @@ module.exports = {
                 return '输入整数';
             }
         },
+        "test": {
+            "type": "confirm",
+            "message": "Setup unit tests with jest?"
+        }
     },
     "filters":{
         "__tests__/**/*": "test",
-        "config/test.env.js": "test"
+        "test/**/*": "test"
     },
     "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/waka-templates/react-webpack2"
 }
