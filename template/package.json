@@ -16,6 +16,10 @@
     },
     "keywords": [],
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url":"https://github.com/{{author}}/{{name}}"
+    },
     "devDependencies": {
         "react": "^15.5.4",
         "react-dom": "^15.5.4",
